@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Calculando o IMC</h1>
+        <p id="resultado">Aqui vai aparecer o resultado!</p>
+        <button onclick="inicio()">Clica aqui</button>
+    </section>
+    <script>
+        function inicio(){
+            let nome = window.alert('Peso e Altura');
+            let numero1 = window.prompt("digite o peso:");
+            let numero2 = window.prompt("digite a altura:");
+            let soma = parseFloat (numero1) + parseFloat (numero2);
+            let res = window.document.getElementById('resultado');
+            let= imc = peso (altura / numero1**2);
+            res.innerHTML = "O resultado da soma de "+numero1+" e "+numero2+" foi: "+soma;
+            // parseFloat = Transforma qualquer coisa em float(Número inteiro)
+            // parseInt = Transforma qualquer coisa em int(Número quebrado)
+            // pesquise o significado de cada coisa na linha 18..
+        }
+    </script>
+</body>
+</html>

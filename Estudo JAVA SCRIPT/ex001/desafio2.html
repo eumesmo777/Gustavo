@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAAAAAAAAAAAAAAAA</title>
+    <style>
+        body { font: 10pt arial;}
+        button { font-size: 10pt; padding: 10px;}
+    </style>
+</head>
+<body>
+    <h1>Zaffari</h1>
+    <button onclick="inicio()">Desconto</button>
+    <script>
+        function calcularDesconto(valor, porcentagem) {
+  return valor * (porcentagem / 100);
+}
+function inicio() {
+    var valor = document.getElementById("valor").value;
+    var porcentagem = document.getElementById("porcentagem").value; 
+    var desconto = calcularDesconto(valor, porcentagem);
+    document.getElementById("desconto").value = desconto;
+
+        var valor = 100;
+        var porcentagem = 10;
+        var desconto = calcularDesconto(valor, porcentagem);
+
+console.log(desconto);
+}
+</script>
+
+</body>
+</html>
