@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FotoCid{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+header{
+    background-color: greenyellow;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    background-color: green;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+main{
+    background-color: lawngreen;
+}    
+
+.produto-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .produto-container{
+        width:100%;
+        flex-direction: column;
+    }
+}

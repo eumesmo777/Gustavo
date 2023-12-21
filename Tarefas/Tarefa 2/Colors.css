@@ -1,0 +1,48 @@
+.coluna1{
+    background-color: rgba(137, 43, 226, 0.5);
+    color: white;
+    border: 3px solid white;
+    flex: 1;
+}
+
+.coluna2{
+    background-color: rgba(135, 206, 250, 0.5);
+    color: white;
+    border: 3px solid white;
+    flex: 3;
+    margin-left: 20px;
+}
+
+header{
+    background-color: rgba(30, 143, 255, 0.5);
+    color: white;
+    border: 3px solid white;
+    height: 100px;
+    margin-bottom: 10px;
+	display: flex;
+}
+
+.container{
+    display: flex;
+    width: 1350px;
+    height: 500px;
+}
+
+body{
+
+background-image: url("https://media4.giphy.com/media/9JxkPTP3alOykb8PmQ/giphy.gif?cid=ecf05e474bsdb8dpjmpmxaj8gnjd6uwex1i9yterw7z3vob3&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+background-size: cover;
+}
+
+.foto{
+	width: 9%;
+	border-radius: 50px;
+	padding: 7px;
+}
+
+.fotão{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
