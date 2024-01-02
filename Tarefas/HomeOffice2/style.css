@@ -64,6 +64,7 @@ table, th, td {
 
 tr:hover {
     background-color: deepskyblue;
+    transition: 1.0s;
 }
 
 .FotoGremio{
