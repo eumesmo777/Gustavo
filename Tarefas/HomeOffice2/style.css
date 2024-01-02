@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Alone;
+    src: url(Study\ Alone.ttf);
+}
+
+@font-face {
+    font-family: Soccer;
+    src: url(typewcond_demi.ttf);
+}
+
+body{
+    background-image: url("https://media0.giphy.com/media/Jv3uIdgaWvB3fpAlU3/giphy.gif?cid=ecf05e47u5lhsisd1c8h74l52l6xl1gtyxuxfwvoiykrsydw&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(0, 191, 255, 0.5);
+    text-align: center;
+    font-family: Alone;
+    font-size: 50px;
+    color: white;
+    border: black solid 2px;
+}
+
+h1{
+    text-align: center;
+    font-family: Soccer;
+    background-color: rgba(0, 191, 255, 0.5);
+    color: white;
+    border: black solid 2px;
+}
+
+p{
+    font-family: Soccer;
+    background-color: rgba(0, 191, 255, 0.5);
+    color: white;
+    border: black solid 2px;
+}
+
+br{
+    font-family: Soccer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid rgba(0, 191, 255, 0.5);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr{
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: deepskyblue;
+}
+
+.FotoGremio{
+    padding-left: 470px;
+    padding-top: 20px;
+    width: 400px;
+}
+
+.FotoGremio2{
+    padding-left: 300px;
+    margin-top: 30px;
+}
+
+.FotoGremio3{
+    padding-left: 470px;
+    padding-top: px;
+    height: 300px;
+}
+
+.FotoGremio4{
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.FotoGremio5{
+    padding-left: 390px;
+    height: 70px;
+}
+
+.FotoGremio6{
+    height: 500px;
+    padding-left: 250px;
+}
+
+.FotoGremio7{
+    height: 190px;
+    padding-left: 270px;
+}
+
+.FotoGremio8{
+    height: 200px;
+    padding-left: 100px;
+}
+
+.FotoGremio9{
+    height: 210px;
+    padding-left: 100px;
+}
+
+a{
+    background-color: rgba(0, 191, 255, 0.5);
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: black solid 2px;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: rgba(0, 191, 255, 0.233);
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .Carrão{
+        flex-direction: column;
+    }
+    
+}

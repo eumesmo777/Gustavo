@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Platina;
+    src: url(DIMIS___.TTF);
+}
+
+@font-face {
+    font-family: Machine;
+    src: url(Type\ Machine.ttf);
+}
+
+@font-face {
+    font-family: Carros;
+    src: url(Cars.ttf);
+}
+
+header{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    font-family: Carros;
+}
+
+body{
+    background-image: url("https://media3.giphy.com/media/l3vRmn9fXmoslrsDC/giphy.gif?cid=ecf05e475vckoie2ebou5fp1c0dfakz2imyp68mlbk6wqigq&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-family: Platina;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: Platina;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p{
+    font-family: Machine;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+br{
+    color: white;
+}
+
+.Carrão{
+    height: 300px;
+    margin-left: 450px;
+    width: 450px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .Carrão{
+        height: 200px;
+        margin-left: 0px;
+        width: 400px;
+    }
+    
+}
