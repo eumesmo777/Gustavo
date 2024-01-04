@@ -1,0 +1,14 @@
+body{ 
+    background-color: black;
+    color: white;
+    font: 12pt arial;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rebeccapurple;
+    font-size: 12pt; 
+    padding: 20px;
+    margin-top: 250px;
+}
