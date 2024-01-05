@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Idade</title>
+</head>
+<body>   
+    <button onclick="inicio()">Começar</button>
+    <script>
+        function inicio(){
+        let idade = window.prompt("Qual é a sua idade?")
+        let confirmacao = confirm ("A sua idade é " + idade + "?")
+        alert (confirmacao)
+        if (idade <= 18) {
+            alert("Você é menor de idade")
+        }
+        else if (idade >= 18) {
+            alert("Você é maior de idade")
+        }
+    }
+    </script>
+    
+</body>
+</html>

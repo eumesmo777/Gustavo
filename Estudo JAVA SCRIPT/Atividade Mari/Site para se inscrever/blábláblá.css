@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Trave;
+    src: url(TravelingTypewriter.ttf);
+}
+
+header{
+    font-family: Trave;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    font-family: Trave;
+    padding: 15px;
+    margin-left: 625px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    font-size: 20
+}
+
+.Dababy{
+    height: 200px;
+    margin-top: 100px;
+    padding-left: 570px;
+}
+
+audio{
+    margin-bottom: 300px;
+    padding-right: 800px;
+    padding-top: 90px;
+    padding-left: 520px;
+}

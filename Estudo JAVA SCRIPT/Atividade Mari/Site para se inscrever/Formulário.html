@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blá Blá Blá Blá Blá Blá</title>
+    <link rel="stylesheet" href="blábláblá.css">
+</head>
+<body>
+
+    <img class="Dababy" src="Dababy.jpg" alt="CPX">
+
+    <header>~ Site de Cadastro ~</header>
+
+    <button onclick="inicio()">Começar</button>
+    <script>
+        function inicio(){
+        let nome = window.prompt('Digite o seu nome de usuário: ')
+            while(nome.length < 3)
+            {alert ('O nome tem que ter no mínimo 3 caracteres')
+
+                
+                nome = window.prompt('Digite o seu nome de usuário: ')}
+                // Nome do usuário
+        
+        let idade = window.prompt('Digite a sua idade: ')
+            while(idade <= 0 || idade > 150)
+            {alert('Idade incorreta, tente novamente')
+
+                
+                idade = window.prompt('Digite a sua idade: ')}
+                // Idade do usuário
+
+        let salário = window.prompt ('Digite o seu salário: ')
+            while(salário <= 0 || salário > 999999)
+            {alert('Salário não efetuado, tente novamente')
+        
+                salário = window.prompt('Digite o seu salário: ')}
+                // Salário do usuário
+
+        let gênero = window.prompt ('Qual é o seu gênero? ' + 'OBS: Masculino, Feminino ou NB')
+            while(gênero != "Masculino" && gênero != "Feminino" && gênero != "NB")
+
+            {alert ('Gênero incorreto, tente novamente')
+
+                gênero = window.prompt ('Qual é o seu gênero? ' + 'OBS: Masculino, Feminino ou NB')}
+                // Gênero do usuário
+
+        let estado = window.prompt ('Qual seu estado civil atualmente?')
+            while(estado != "Solteiro" && estado != "Casado" && estado != "Viúvo" && estado != "Abandonado")
+
+            {alert ('Estado incorreto, tente novamente')
+        
+                estado = window.prompt ('Qual é o seu estado?')}
+                // Estado civil do usuário
+
+        if (nome == estado)
+                alert('Cadastro negado, tente novamente')
+
+        else
+                alert('Cadastro com sucesso!')
+        }
+    </script>
+
+     <audio src="Dababy.mp3" hidden></audio>
+
+</body>
+</html>
