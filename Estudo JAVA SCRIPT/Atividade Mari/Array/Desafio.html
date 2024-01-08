@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio</title>
+</head>
+<body>
+    <h2>Desafio 1</h2>
+    <p>O item 1 do array: <span id="resultado0"></span></p>
+    <p>O item 2 do array: <span id="resultado1"></span></p>
+    <p>O item 3 do array: <span id="resultado2"></span></p>
+    <p>O item 4 do array: <span id="resultado3"></span></p>
+    <p>O item 5 do array: <span id="resultado4"></span></p>
+    <script>
+        var frutas = ["Banana", "Maça", "Uva", "Laranja", "Abacaxi"];
+        for (var n = 0; n < frutas.length; n++) {
+            document.getElementById(`resultado${n}`).innerHTML = frutas[n];
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Desafio 2</h2>
+    <p>O item 1 do array: <span id="item0"></span></p>
+    <p>O item 2 do array: <span id="item1"></span></p>
+    <p>O item 3 do array: <span id="item2"></span></p>
+    <p>O item 4 do array: <span id="item3"></span></p>
+    <p>O item 5 do array: <span id="item4"></span></p>
+    <script>
+        var carros = ["BMW", "Bugatti", "Civic", "Lamborghini", "Tesla"];
+        for (var n = 0; n < carros.length; n++) {
+            document.getElementById(`item${n}`).innerHTML = carros[n];
+        }
+    </script>
+</body>
+</html>
