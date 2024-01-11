@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Extra</title>
+</head>
+
+<body>
+    <script>
+        function perguntarInformação(pergunta, condicao) {
+            let resultado = prompt(pergunta);
+            while (condicao(resultado)) // true ou false
+            {
+                alert("Informação incorreta, tente de novo.")
+                resultado = prompt(pergunta)
+            }
+            alert("Informação correta")
+        }
+
+        function condicao_nome(entrada){
+        // { let saida
+        //   if (entrada.length<3){ saida = true}
+        //   else { saida = false}
+        //   return saida
+        return entrada.length < 4
+        }
+
+        function condicao_idade(entrada) {
+            // let saida
+            entrada = parseFloat(entrada)
+            //   if (entrada>100){ saida = true    }
+            //   else { saida = false}
+            //   return saida
+            return entrada > 5
+        }
+
+        perguntarInformação("Qual o ano em que você nasceu?", condicao_nome)
+        perguntarInformação("Qual o seu cantor(a) favorito(a)?", condicao_idade)
+    </script>
+
+</body>
+
+</html>

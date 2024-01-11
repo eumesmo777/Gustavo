@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função</title>
+</head>
+<body>
+    <script>
+        let N1 = parseFloat(window.prompt ("Digite o primeiro valor: "));
+        let N2 = parseFloat(window.prompt ("Digite o segundo valor: "));
+        let N3 = parseFloat(window.prompt ("Digite o terceiro valor: "));
+        let N4 = parseFloat(window.prompt ("Digite o quarto valor: "));
+        let N5 = parseFloat(window.prompt ("Digite o quinto valor: "));
+
+        function calcular (N1, N2, N3, N4, N5) {
+            let soma = (N1 + N2 + N3 + N4 + N5) / 5;
+            return soma;
+        }
+
+        let resultado = calcular (N1, N2, N3, N4, N5);
+        alert (resultado);
+    </script>
+</body>
+</html>

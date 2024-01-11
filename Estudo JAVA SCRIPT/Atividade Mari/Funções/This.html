@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa com This</title>
+</head>
+
+<body>
+    <script>
+        let user = {
+            nome: "Gustavo",
+            sayHi() {
+                let arrow = () => alert(this.nome);
+                arrow();
+            }
+        };
+
+        user.sayHi();
+
+    </script>
+
+</body>
+
+</html>

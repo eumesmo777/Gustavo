@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Extra</title>
+</head>
+<body>
+    <script>
+        function perguntarInformação(pergunta, condicao) {
+            let resultado = "";
+            while (condicao(resultado)) {
+                resultado = window.prompt(pergunta);
+            }
+            return resultado;
+        }
+
+        function condicao_nome(entrada) {
+            return entrada.length < 3 || entrada.length > 2;
+        }
+
+        function pergunta = perguntarInformação("Tu mora no RS?", condicao_nome);
+        
+        if (entrada.length < 3){
+        alert("Acho que é de outro estado, cpx");
+        }
+        else (entrada.length > 2){
+        alert("Tu é daqui, tmj")
+        }
+
+    </script>
+</body>
+</html>

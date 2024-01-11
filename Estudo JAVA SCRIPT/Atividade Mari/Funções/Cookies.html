@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bolachão.css">
+    <title>Cookies🍪</title>
+</head>
+<body>
+
+    <script>
+        function pergunte(pergunta, sim, nao) {;
+            if (confirm(pergunta)) sim();
+            else nao();
+        }
+
+        function mostrarOk() {
+            alert("Você aceitou, tmj✋😝🤚");
+        }
+
+        function mostrarCancel() {
+            alert("Você negou, vacilão🤬");
+        }
+
+        pergunte("Você aceita cookies🍪, meu chapa?", mostrarOk, mostrarCancel);
+    </script>
+
+</body>
+
+</html>
